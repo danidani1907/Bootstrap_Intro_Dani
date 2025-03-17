@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(100, 148, 237, 0.735);
+
+}
+
+.container .mt-3{
+    background: #ffffffc4 ;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+   box-shadow: 0 4px 15px #200202c4;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+h1{
+    color: darkblue;
+}
