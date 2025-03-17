@@ -9,8 +9,33 @@
 <body>
 
 
-    <!-- 1ª Digitação (Aqui) -->
-
+    <!-- Desenvolve o modal -->
+        <div class="container mt-3">
+            <button class="btn btn-danger" data-bs-toggle="modal" 
+             data-bs-target="#exemploModal">
+                abri modal
+            </button>
+        </div>
+        <div class="modal fade" id="exemploModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-tittle">Adele🛫</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4>hello!</h4>
+                        <p>its me</p>
+                        <p>1937</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary">close</button>
+                     <button class="btn btn-secondary">save</button>
+                    </div>
+                </div>
+            </div>
+         </div> <!-- O id tem que ser o mesmo do botão-->
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
